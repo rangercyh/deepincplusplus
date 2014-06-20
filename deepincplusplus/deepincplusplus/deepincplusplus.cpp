@@ -3,7 +3,10 @@
 
 #include "stdafx.h"
 #include "common.h"
+
+
 #include "question_1.h"
+#include "question_2.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -12,6 +15,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	START_TIME(time_start);
 
 	question_1();
+	question_2();
 
 
 	PRINT_TIME(time_start);

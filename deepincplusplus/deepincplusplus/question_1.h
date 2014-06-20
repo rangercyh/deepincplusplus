@@ -8,9 +8,8 @@ using namespace std;
 
 void question_1()
 {
-	// 子类对象如何调用父类函数和虚函数？
-
-	cout << "question_1:子类对象如何调用父类函数和虚函数？" << endl;
+	const char *question = "question_1";
+	cout << endl << question << ":子类对象如何调用父类函数和虚函数？" << endl;
 	class a {
 	public:
 		virtual ~a() {}
@@ -21,8 +20,7 @@ void question_1()
 
 	class b : public a {
 	public:
-		b() : m(0) {}
-		int m;
+		b() {}
 		virtual void z() { cout << "I am child z()" << endl; }
 		void y() { cout << "I am child y()" << endl; }
 	};
@@ -48,5 +46,5 @@ void question_1()
 	r->z();	// I am child z()
 	r->y();	// y
 
-	cout << "question_1:结束" << endl;
+	cout << question << ":结束" << endl;
 }

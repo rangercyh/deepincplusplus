@@ -30,6 +30,9 @@
     <ClInclude Include="question_1.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="question_2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
